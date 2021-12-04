@@ -4,6 +4,10 @@ def sum(a,b):
     c= a + b
     return c
 
+def sub(a,b):
+    c= a - b
+    return c
+
 def mul(a,b):
     d= a * b
     return d
@@ -17,6 +21,8 @@ b = int(input('Enter the value of B : '))
 c = sum(a,b)
 print('The value of C is : ',c)
 
+c = sub(a,b)
+print('The value of C is : ',c)
 
 d = mul(a,b)
 print('The value of C is : ',d)
